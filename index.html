@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Created by Divya Patel</title>
+    <style>
+        *{
+            padding: auto;
+            margin:auto;
+        }
+        body{
+            height: 100vh;
+            background-color: darkcyan;
+            overflow: hidden;
+        }
+        .logo{
+            height: 100vh;
+            align-items: center;
+            text-align: center;
+            margin-top: 300px ;
+        }
+        .logo img{
+            border-radius: 50%;
+            height: 50px;
+            width: 50px;
+        }
+        .logo h1{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            animation: typing 4s steps(40), blink .5s step-end infinite alternate;
+            white-space: nowrap;
+            overflow: hidden;
+            border-right: 3px solid black;
+            font-size: 2em;
+            width: 370px;
+        }
+        @keyframes typing {
+            from{
+                width: 0;
+            }
+            to{
+                width: 370px;
+            }
+        }
+        @keyframes blink {
+            50%{
+                border-color: transparent;
+            }
+        }
+        @media(max-width:385px){
+            .logo h1{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            animation: typing 4s steps(40), blink .5s step-end infinite alternate;
+            white-space: nowrap;
+            overflow: hidden;
+            border-right: 3px solid black;
+            font-size: 1.5em;
+            width: 280px;
+        }
+            @keyframes typing {
+            from{
+                width: 0;
+            }
+            to{
+                width: 280px;
+            }
+        }
+        }
+    </style>
+</head>
+<body>
+    <div class="logo">
+    <img src="https://user-images.githubusercontent.com/121277699/210176598-923b3220-0385-436d-9398-2bcd23d2063a.jpg" alt="logo">
+    <h1>CREATED BY DIVYA PATEL</h1>
+    </div>
+</body>
+</html>
